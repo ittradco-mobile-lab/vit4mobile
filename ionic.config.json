@@ -1,6 +1,8 @@
 {
   "name": "vit4mobile",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular",
   "id": "20105c84"
 }

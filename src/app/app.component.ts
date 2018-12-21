@@ -10,6 +10,7 @@ import { ListPage } from '../pages/list/list';
   templateUrl: 'app.html'
 })
 export class MyApp {
+  //this is Laurentiu Ursu's test to see if git push works well!
   @ViewChild(Nav) nav: Nav;
 
   rootPage: any = HomePage;

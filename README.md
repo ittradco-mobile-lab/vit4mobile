@@ -82,10 +82,9 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
   
 HINT:  
 To push from your local master to a different remote branch, use:
-
 git push origin master:branch
-To have your friends pull this remote branch into their local master, they can use git pull as:
 
+To have your friends pull this remote branch into their local master, they can use git pull as:
 git checkout master
 git pull origin branch
   

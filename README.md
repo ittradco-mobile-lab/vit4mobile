@@ -48,7 +48,7 @@ on C:\myproject\vit4mobile
     code . 
     That wil open the visual studion code editor and you'll be able to work with you project.
     
- 5) Whenever you finish to modify your code PLEASE commit this one the the local (origin) local branch
+ 5) COMMIT YOUR CHAGES (on the local master): Whenever you finish to modify your code PLEASE commit this one the the local (origin) local branch
  
  Execute the commands:
  
@@ -58,9 +58,36 @@ on C:\myproject\vit4mobile
  
   git commit -m "<Here specify a clear but brief message about your modification>"
   
-  6) Whenever you want to share your local code with the team, push the local modfication to the remote GIT branch:
+  6) PUSH YOUR CHANGES - !!! after commit!!! -(to the origin remote branch) Whenever you want to share your local code with the team, push the local modfication to the remote GIT branch:
   
   Execute the command:
+  
+  git push origin development-lursu
+  
+  In case you see the error below, execute the command:
+  
+  git pull origin development-lursu
+  
+ ERROR ON PUSH:
+To https://github.com/ittradco-mobile-lab/vit4mobile.git
+ ! [rejected]        development-lursu -> development-lursu (fetch first)
+error: failed to push some refs to 'https://github.com/ittradco-mobile-lab/vit4mobile.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  
+  
+  
+HINT:  
+To push from your local master to a different remote branch, use:
+
+git push origin master:branch
+To have your friends pull this remote branch into their local master, they can use git pull as:
+
+git checkout master
+git pull origin branch
   
   
     

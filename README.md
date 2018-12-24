@@ -87,6 +87,8 @@ git push origin master:branch
 To have your friends pull this remote branch into their local master, they can use git pull as:
 git checkout master
 git pull origin branch
+
+This is a test to see if I can push.
   
   
     

@@ -1,0 +1,47 @@
+<form [formGroup]="form" (ngSubmit)="register()"> 
+    <ion-item>
+        <ion-label floating>E-mail</ion-label>
+        <ion-input formControlName="email"></ion-input>
+      </ion-item>
+      <div padding *ngIf="email.touched && email.invalid">
+        <span class="global_input-error" *ngIf="email.errors.required">
+          E-mail is required
+        </span>
+        <span class="global_input-error" *ngIf="email.errors.email">
+          E-mail is not valid
+        </span>
+        <span class="global_input-error" *ngIf="email.errors.invalidEmail">
+          E-mail is already taken
+        </span>
+      </div>
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input formControlName="password" type="password"></ion-input> 
+      </ion-item>
+      <div padding *ngIf="password.touched && password.invalid">
+        <span class="global_input-error" *ngIf="password.errors.required">
+          Password is required
+        </span>
+        <span class="global_input-error" *ngIf="password.errors.invalidPass">
+          Password must contain at least one number and at least one uppercase letter or symbol
+        </span>
+        <span class="global_input-error" *ngIf="password.errors.minlength">
+          Password must be at least {{password.errors.minlength.requiredLength}} characters long
+        </span>
+      </div>
+      <ion-item >
+        <ion-label floating>Confirm Password</ion-label>
+        <ion-input formControlName="confPassword" type="password"></ion-input>
+      </ion-item>
+      <div padding *ngIf="confPassword.touched && confPassword.invalid">
+        <span class="global_input-error" *ngIf="confPassword.errors.required">
+          This field is required
+        </span>
+      </div>
+      <div padding *ngIf="form.invalid && form.errors">
+        <span class="global_input-error" *ngIf="confPassword.touched && form.errors.noMatch">
+          Passwords don't match
+        </span>
+      </div>
+      <button type="submit" ion-button margin-top block [disabled]="form.invalid || form.pending">Register</button>
+</form>

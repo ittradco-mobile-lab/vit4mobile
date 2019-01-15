@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
-
+import { NavController, NavParams, IonicPage } from 'ionic-angular';
+@IonicPage()
 @Component({
   selector: 'page-list',
   templateUrl: 'list.html'
@@ -25,6 +25,7 @@ export class ListPage {
         note: 'This is item #' + i,
         icon: this.icons[Math.floor(Math.random() * this.icons.length)]
       });
+      console.log(this.items);
     }
   }
 

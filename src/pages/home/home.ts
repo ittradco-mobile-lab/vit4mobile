@@ -18,6 +18,9 @@ export class HomePage {
   constructor(private navCtrl: NavController, private navParams: NavParams) {
 
   }
+  navigateToLogIn(){
+      this.navCtrl.push("LoginFormPage");
+  }
   navigateToRegister(){
       this.navCtrl.push("RegisterFormPage");
   }

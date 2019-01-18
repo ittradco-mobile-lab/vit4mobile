@@ -1,16 +1,16 @@
 webpackJsonp([0],{
 
-/***/ 682:
+/***/ 768:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterFormPageModule", function() { return RegisterFormPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_components_module__ = __webpack_require__(687);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_components_module__ = __webpack_require__(775);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(147);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__register_form__ = __webpack_require__(694);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_fire_auth__ = __webpack_require__(683);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__register_form__ = __webpack_require__(783);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_fire_auth__ = __webpack_require__(769);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -44,11 +44,11 @@ var RegisterFormPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 683:
+/***/ 769:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__public_api__ = __webpack_require__(690);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__public_api__ = __webpack_require__(771);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__public_api__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__public_api__["b"]; });
 
@@ -56,17 +56,17 @@ var RegisterFormPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 684:
+/***/ 770:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AngularFireAuth; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(382);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators__ = __webpack_require__(340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators__ = __webpack_require__(383);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_fire__ = __webpack_require__(341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_fire__ = __webpack_require__(384);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -122,263 +122,13 @@ var AngularFireAuth = (function () {
 
 /***/ }),
 
-/***/ 687:
+/***/ 771:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComponentsModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(147);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_form_register_form__ = __webpack_require__(688);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-var ComponentsModule = /** @class */ (function () {
-    function ComponentsModule() {
-    }
-    ComponentsModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [__WEBPACK_IMPORTED_MODULE_2__register_form_register_form__["a" /* RegisterFormComponent */]],
-            imports: [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* IonicModule */]],
-            exports: [__WEBPACK_IMPORTED_MODULE_2__register_form_register_form__["a" /* RegisterFormComponent */]]
-        })
-    ], ComponentsModule);
-    return ComponentsModule;
-}());
-
-//# sourceMappingURL=components.module.js.map
-
-/***/ }),
-
-/***/ 688:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterFormComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__validators__ = __webpack_require__(689);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_fire_auth__ = __webpack_require__(683);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular__ = __webpack_require__(147);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
-var __generator = (this && this.__generator) || function (thisArg, body) {
-    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
-    function verb(n) { return function (v) { return step([n, v]); }; }
-    function step(op) {
-        if (f) throw new TypeError("Generator is already executing.");
-        while (_) try {
-            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
-            if (y = 0, t) op = [0, t.value];
-            switch (op[0]) {
-                case 0: case 1: t = op; break;
-                case 4: _.label++; return { value: op[1], done: false };
-                case 5: _.label++; y = op[1]; op = [0]; continue;
-                case 7: op = _.ops.pop(); _.trys.pop(); continue;
-                default:
-                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
-                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
-                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
-                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
-                    if (t[2]) _.ops.pop();
-                    _.trys.pop(); continue;
-            }
-            op = body.call(thisArg, _);
-        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
-        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
-    }
-};
-
-
-
-
-
-/**
- * Generated class for the RegisterFormComponent component.
- *
- * See https://angular.io/api/core/Component for more info on Angular
- * Components.
- */
-var RegisterFormComponent = /** @class */ (function () {
-    function RegisterFormComponent(fb, afAuth, toastCtrl) {
-        this.afAuth = afAuth;
-        this.toastCtrl = toastCtrl;
-        console.log('Hello RegisterFormComponent Component');
-        //Build the Form with FormBuilder
-        this.form = fb.group({
-            email: ['', [
-                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required,
-                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].email
-                ],
-                __WEBPACK_IMPORTED_MODULE_0__validators__["a" /* CustomValidators */].checkEmail
-            ],
-            password: ['', [
-                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required,
-                    __WEBPACK_IMPORTED_MODULE_0__validators__["a" /* CustomValidators */].passwordValidate,
-                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].minLength(6)
-                ]
-            ],
-            confPassword: ['',
-                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required
-            ]
-        }, {
-            validator: __WEBPACK_IMPORTED_MODULE_0__validators__["a" /* CustomValidators */].passwordMatch
-        });
-    }
-    RegisterFormComponent.prototype.register = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            var result, toast, e_1, toast, toast;
-            return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0:
-                        if (!this.form.valid) return [3 /*break*/, 5];
-                        _a.label = 1;
-                    case 1:
-                        _a.trys.push([1, 3, , 4]);
-                        return [4 /*yield*/, this.afAuth.auth.createUserWithEmailAndPassword(this.email.value, this.password.value)];
-                    case 2:
-                        result = _a.sent();
-                        toast = this.toastCtrl.create({
-                            message: "Account registered successfully!",
-                            duration: 2000,
-                            position: "bottom"
-                        }).present();
-                        return [3 /*break*/, 4];
-                    case 3:
-                        e_1 = _a.sent();
-                        console.error(e_1);
-                        toast = this.toastCtrl.create({
-                            message: e_1.message,
-                            duration: 2000,
-                            position: "bottom"
-                        }).present();
-                        return [3 /*break*/, 4];
-                    case 4: return [3 /*break*/, 6];
-                    case 5:
-                        toast = this.toastCtrl.create({
-                            message: "An error occured",
-                            duration: 2000,
-                            position: "bottom"
-                        }).present();
-                        _a.label = 6;
-                    case 6: return [2 /*return*/];
-                }
-            });
-        });
-    };
-    Object.defineProperty(RegisterFormComponent.prototype, "email", {
-        //Get all Form Controls
-        get: function () {
-            return this.form.get("email");
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(RegisterFormComponent.prototype, "password", {
-        get: function () {
-            return this.form.get("password");
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(RegisterFormComponent.prototype, "confPassword", {
-        get: function () {
-            return this.form.get("confPassword");
-        },
-        enumerable: true,
-        configurable: true
-    });
-    RegisterFormComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'app-register-form',template:/*ion-inline-start:"C:\Users\ursu_\Desktop\VITursu\vit4mobile\src\components\register-form\register-form.html"*/'<form [formGroup]="form" (ngSubmit)="register()"> \n    <ion-item>\n        <ion-label floating>E-mail</ion-label>\n        <ion-input formControlName="email"></ion-input>\n      </ion-item>\n      <div padding *ngIf="email.touched && email.invalid">\n        <span class="global_input-error" *ngIf="email.errors.required">\n          E-mail is required\n        </span>\n        <span class="global_input-error" *ngIf="email.errors.email">\n          E-mail is not valid\n        </span>\n        <span class="global_input-error" *ngIf="email.errors.invalidEmail">\n          E-mail is already taken\n        </span>\n      </div>\n      <ion-item>\n        <ion-label floating>Password</ion-label>\n        <ion-input formControlName="password" type="password"></ion-input> \n      </ion-item>\n      <div padding *ngIf="password.touched && password.invalid">\n        <span class="global_input-error" *ngIf="password.errors.required">\n          Password is required\n        </span>\n        <span class="global_input-error" *ngIf="password.errors.invalidPass">\n          Password must contain at least one number and at least one uppercase letter or symbol\n        </span>\n        <span class="global_input-error" *ngIf="password.errors.minlength">\n          Password must be at least {{password.errors.minlength.requiredLength}} characters long\n        </span>\n      </div>\n      <ion-item >\n        <ion-label floating>Confirm Password</ion-label>\n        <ion-input formControlName="confPassword" type="password"></ion-input>\n      </ion-item>\n      <div padding *ngIf="confPassword.touched && confPassword.invalid">\n        <span class="global_input-error" *ngIf="confPassword.errors.required">\n          This field is required\n        </span>\n      </div>\n      <div padding *ngIf="form.invalid && form.errors">\n        <span class="global_input-error" *ngIf="confPassword.touched && form.errors.noMatch">\n          Passwords don\'t match\n        </span>\n      </div>\n      <button type="submit" ion-button margin-top block [disabled]="form.invalid || form.pending">Register</button>\n</form>'/*ion-inline-end:"C:\Users\ursu_\Desktop\VITursu\vit4mobile\src\components\register-form\register-form.html"*/
-        }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__angular_fire_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_fire_auth__["a" /* AngularFireAuth */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["i" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["i" /* ToastController */]) === "function" && _c || Object])
-    ], RegisterFormComponent);
-    return RegisterFormComponent;
-    var _a, _b, _c;
-}());
-
-//# sourceMappingURL=register-form.js.map
-
-/***/ }),
-
-/***/ 689:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CustomValidators; });
-var CustomValidators = /** @class */ (function () {
-    function CustomValidators() {
-    }
-    CustomValidators.passwordMatch = function (control) {
-        //Get Passwords
-        var password = control.get("password");
-        var confPassword = control.get("confPassword");
-        console.log(control);
-        //Check Passwords
-        if (password.value !== confPassword.value) {
-            //Set validation error to confPassword
-            return { noMatch: true };
-        }
-        return null;
-    };
-    CustomValidators.passwordValidate = function (control) {
-        //Check if Password Contains numbers and Either an Uppercase Letter or a Symbol
-        if (!/\d/.test(control.value) || (!/[A-Z]/.test(control.value) && !/[^A-Zaa-z]/.test(control.value))) {
-            return { invalidPass: true };
-        }
-        return null;
-    };
-    CustomValidators.checkEmail = function (control) {
-        //Async Validator
-        return new Promise(function (resolve, reject) {
-            //setTimeout Test => Creating AJAX Service Later 
-            setTimeout(function () {
-                if (control.value === "someone@example.com") {
-                    resolve({ invalidEmail: true });
-                }
-                else {
-                    resolve(null);
-                }
-            }, 2000);
-        });
-    };
-    return CustomValidators;
-}());
-
-//# sourceMappingURL=validators.js.map
-
-/***/ }),
-
-/***/ 690:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__auth__ = __webpack_require__(684);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__auth__ = __webpack_require__(770);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__auth__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_module__ = __webpack_require__(691);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_module__ = __webpack_require__(772);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__auth_module__["a"]; });
 
 
@@ -386,14 +136,14 @@ var CustomValidators = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 691:
+/***/ 772:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AngularFireAuthModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth__ = __webpack_require__(684);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_firebase_auth__ = __webpack_require__(692);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth__ = __webpack_require__(770);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_firebase_auth__ = __webpack_require__(773);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -418,11 +168,11 @@ var AngularFireAuthModule = (function () {
 
 /***/ }),
 
-/***/ 692:
+/***/ 773:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__firebase_auth__ = __webpack_require__(693);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__firebase_auth__ = __webpack_require__(774);
 
 
 /**
@@ -444,11 +194,11 @@ var AngularFireAuthModule = (function () {
 
 /***/ }),
 
-/***/ 693:
+/***/ 774:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__firebase_app__ = __webpack_require__(342);
+/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__firebase_app__ = __webpack_require__(385);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__firebase_app___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__firebase_app__);
 (function() {var g,aa=aa||{},k=this;function l(a){return"string"==typeof a}function ba(a){return"boolean"==typeof a}function ca(){}
 function da(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null";
@@ -773,17 +523,402 @@ __WEBPACK_IMPORTED_MODULE_0__firebase_app___default.a.INTERNAL.registerService("
 
 //# sourceMappingURL=auth.esm.js.map
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(43)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(53)))
 
 /***/ }),
 
-/***/ 694:
+/***/ 775:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComponentsModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_form_register_form__ = __webpack_require__(776);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_form_login_form__ = __webpack_require__(778);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var ComponentsModule = /** @class */ (function () {
+    function ComponentsModule() {
+    }
+    ComponentsModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [__WEBPACK_IMPORTED_MODULE_2__register_form_register_form__["a" /* RegisterFormComponent */],
+                __WEBPACK_IMPORTED_MODULE_3__login_form_login_form__["a" /* LoginFormComponent */]],
+            imports: [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* IonicModule */]],
+            exports: [__WEBPACK_IMPORTED_MODULE_2__register_form_register_form__["a" /* RegisterFormComponent */],
+                __WEBPACK_IMPORTED_MODULE_3__login_form_login_form__["a" /* LoginFormComponent */]]
+        })
+    ], ComponentsModule);
+    return ComponentsModule;
+}());
+
+//# sourceMappingURL=components.module.js.map
+
+/***/ }),
+
+/***/ 776:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterFormComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__validators__ = __webpack_require__(777);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_fire_auth__ = __webpack_require__(769);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular__ = __webpack_require__(181);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [0, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+
+
+
+
+
+/**
+ * Generated class for the RegisterFormComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var RegisterFormComponent = /** @class */ (function () {
+    function RegisterFormComponent(fb, afAuth, toastCtrl) {
+        this.afAuth = afAuth;
+        this.toastCtrl = toastCtrl;
+        console.log('Hello RegisterFormComponent Component');
+        //Build the Form with FormBuilder
+        this.form = fb.group({
+            email: ['', [
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required,
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].email
+                ],
+                __WEBPACK_IMPORTED_MODULE_0__validators__["a" /* CustomValidators */].checkEmail
+            ],
+            password: ['', [
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required,
+                    __WEBPACK_IMPORTED_MODULE_0__validators__["a" /* CustomValidators */].passwordValidate,
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].minLength(6)
+                ]
+            ],
+            confPassword: ['',
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required
+            ]
+        }, {
+            validator: __WEBPACK_IMPORTED_MODULE_0__validators__["a" /* CustomValidators */].passwordMatch
+        });
+    }
+    RegisterFormComponent.prototype.register = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var result, toast, e_1, toast, toast;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        if (!this.form.valid) return [3 /*break*/, 5];
+                        _a.label = 1;
+                    case 1:
+                        _a.trys.push([1, 3, , 4]);
+                        return [4 /*yield*/, this.afAuth.auth.createUserWithEmailAndPassword(this.email.value, this.password.value)];
+                    case 2:
+                        result = _a.sent();
+                        toast = this.toastCtrl.create({
+                            message: "Account registered successfully!",
+                            duration: 2000,
+                            position: "bottom"
+                        }).present();
+                        return [3 /*break*/, 4];
+                    case 3:
+                        e_1 = _a.sent();
+                        console.error(e_1);
+                        toast = this.toastCtrl.create({
+                            message: e_1.message,
+                            duration: 2000,
+                            position: "bottom"
+                        }).present();
+                        return [3 /*break*/, 4];
+                    case 4: return [3 /*break*/, 6];
+                    case 5:
+                        toast = this.toastCtrl.create({
+                            message: "An error occured",
+                            duration: 2000,
+                            position: "bottom"
+                        }).present();
+                        _a.label = 6;
+                    case 6: return [2 /*return*/];
+                }
+            });
+        });
+    };
+    Object.defineProperty(RegisterFormComponent.prototype, "email", {
+        //Get all Form Controls
+        get: function () {
+            return this.form.get("email");
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(RegisterFormComponent.prototype, "password", {
+        get: function () {
+            return this.form.get("password");
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(RegisterFormComponent.prototype, "confPassword", {
+        get: function () {
+            return this.form.get("confPassword");
+        },
+        enumerable: true,
+        configurable: true
+    });
+    RegisterFormComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'app-register-form',template:/*ion-inline-start:"C:\Users\ursu_\OneDrive\Desktop\VITURSU\vit4mobile\src\components\register-form\register-form.html"*/'<form [formGroup]="form" (ngSubmit)="register()"> \n\n    <ion-item>\n\n        <ion-label floating>E-mail</ion-label>\n\n        <ion-input formControlName="email"></ion-input>\n\n      </ion-item>\n\n      <div padding *ngIf="email.touched && email.invalid">\n\n        <span class="global_input-error" *ngIf="email.errors.required">\n\n          E-mail is required\n\n        </span>\n\n        <span class="global_input-error" *ngIf="email.errors.email">\n\n          E-mail is not valid\n\n        </span>\n\n        <span class="global_input-error" *ngIf="email.errors.invalidEmail">\n\n          E-mail is already taken\n\n        </span>\n\n      </div>\n\n      <ion-item>\n\n        <ion-label floating>Password</ion-label>\n\n        <ion-input formControlName="password" type="password"></ion-input> \n\n      </ion-item>\n\n      <div padding *ngIf="password.touched && password.invalid">\n\n        <span class="global_input-error" *ngIf="password.errors.required">\n\n          Password is required\n\n        </span>\n\n        <span class="global_input-error" *ngIf="password.errors.invalidPass">\n\n          Password must contain at least one number and at least one uppercase letter or symbol\n\n        </span>\n\n        <span class="global_input-error" *ngIf="password.errors.minlength">\n\n          Password must be at least {{password.errors.minlength.requiredLength}} characters long\n\n        </span>\n\n      </div>\n\n      <ion-item >\n\n        <ion-label floating>Confirm Password</ion-label>\n\n        <ion-input formControlName="confPassword" type="password"></ion-input>\n\n      </ion-item>\n\n      <div padding *ngIf="confPassword.touched && confPassword.invalid">\n\n        <span class="global_input-error" *ngIf="confPassword.errors.required">\n\n          This field is required\n\n        </span>\n\n      </div>\n\n      <div padding *ngIf="form.invalid && form.errors">\n\n        <span class="global_input-error" *ngIf="confPassword.touched && form.errors.noMatch">\n\n          Passwords don\'t match\n\n        </span>\n\n      </div>\n\n      <button type="submit" ion-button margin-top block [disabled]="form.invalid || form.pending">Register</button>\n\n</form>'/*ion-inline-end:"C:\Users\ursu_\OneDrive\Desktop\VITURSU\vit4mobile\src\components\register-form\register-form.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_3__angular_fire_auth__["a" /* AngularFireAuth */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["i" /* ToastController */]])
+    ], RegisterFormComponent);
+    return RegisterFormComponent;
+}());
+
+//# sourceMappingURL=register-form.js.map
+
+/***/ }),
+
+/***/ 777:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CustomValidators; });
+var CustomValidators = /** @class */ (function () {
+    function CustomValidators() {
+    }
+    CustomValidators.passwordMatch = function (control) {
+        //Get Passwords
+        var password = control.get("password");
+        var confPassword = control.get("confPassword");
+        console.log(control);
+        //Check Passwords
+        if (password.value !== confPassword.value) {
+            //Set validation error to confPassword
+            return { noMatch: true };
+        }
+        return null;
+    };
+    CustomValidators.passwordValidate = function (control) {
+        //Check if Password Contains numbers and Either an Uppercase Letter or a Symbol
+        if (!/\d/.test(control.value) || (!/[A-Z]/.test(control.value) && !/[^A-Zaa-z]/.test(control.value))) {
+            return { invalidPass: true };
+        }
+        return null;
+    };
+    CustomValidators.checkEmail = function (control) {
+        //Async Validator
+        return new Promise(function (resolve, reject) {
+            //setTimeout Test => Creating AJAX Service Later 
+            setTimeout(function () {
+                if (control.value === "someone@example.com") {
+                    resolve({ invalidEmail: true });
+                }
+                else {
+                    resolve(null);
+                }
+            }, 2000);
+        });
+    };
+    return CustomValidators;
+}());
+
+//# sourceMappingURL=validators.js.map
+
+/***/ }),
+
+/***/ 778:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginFormComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_fire_auth__ = __webpack_require__(769);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [0, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+
+
+
+
+/**
+ * Generated class for the LoginFormComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var LoginFormComponent = /** @class */ (function () {
+    function LoginFormComponent(fb, afAuth, toastCtrl, navCtrl) {
+        this.fb = fb;
+        this.afAuth = afAuth;
+        this.toastCtrl = toastCtrl;
+        this.navCtrl = navCtrl;
+        console.log('Hello LoginFormComponent Component');
+        //Initializing the form with FormBuild class
+        this.form = this.fb.group({
+            user: [""],
+            password: [""]
+        });
+    }
+    LoginFormComponent.prototype.login = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var result, e_1, toast;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 2, , 3]);
+                        //trying to log in
+                        console.log(this.username.value);
+                        return [4 /*yield*/, this.afAuth.auth.signInWithEmailAndPassword(this.username.value, this.password.value)];
+                    case 1:
+                        result = _a.sent();
+                        //changing the view to the 'entered' view
+                        this.navCtrl.setRoot("EnteredPage");
+                        return [3 /*break*/, 3];
+                    case 2:
+                        e_1 = _a.sent();
+                        toast = this.toastCtrl.create({
+                            message: e_1.message,
+                            duration: 2000,
+                            position: "bottom"
+                        }).present();
+                        return [3 /*break*/, 3];
+                    case 3: return [2 /*return*/];
+                }
+            });
+        });
+    };
+    Object.defineProperty(LoginFormComponent.prototype, "username", {
+        //dynamically get form variables
+        get: function () {
+            return this.form.get("user");
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LoginFormComponent.prototype, "password", {
+        get: function () {
+            return this.form.get("password");
+        },
+        enumerable: true,
+        configurable: true
+    });
+    LoginFormComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["m" /* Component */])({
+            selector: 'login-form',template:/*ion-inline-start:"C:\Users\ursu_\OneDrive\Desktop\VITURSU\vit4mobile\src\components\login-form\login-form.html"*/'<form [formGroup]="form" (ngSubmit)="login()">\n  <ion-item>\n    <ion-label floating>Username</ion-label>\n    <ion-input formControlName="user"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-label floating>Password</ion-label>\n    <ion-input formControlName="password" type="password"></ion-input>\n  </ion-item>\n  <button type="submit" ion-button margin-top block>Log In</button>\n</form>'/*ion-inline-end:"C:\Users\ursu_\OneDrive\Desktop\VITURSU\vit4mobile\src\components\login-form\login-form.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1__angular_fire_auth__["a" /* AngularFireAuth */], __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["i" /* ToastController */], __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["f" /* NavController */]])
+    ], LoginFormComponent);
+    return LoginFormComponent;
+}());
+
+//# sourceMappingURL=login-form.js.map
+
+/***/ }),
+
+/***/ 783:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterFormPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(181);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -811,7 +946,7 @@ var RegisterFormPage = /** @class */ (function () {
     };
     RegisterFormPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-register-form',template:/*ion-inline-start:"C:\Users\ursu_\Desktop\VITursu\vit4mobile\src\pages\register-form\register-form.html"*/'<!--\n  Generated template for the RegisterFormPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>registerForm</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <app-register-form>\n    \n  </app-register-form>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\ursu_\Desktop\VITursu\vit4mobile\src\pages\register-form\register-form.html"*/,
+            selector: 'page-register-form',template:/*ion-inline-start:"C:\Users\ursu_\OneDrive\Desktop\VITURSU\vit4mobile\src\pages\register-form\register-form.html"*/'<!--\n\n  Generated template for the RegisterFormPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>registerForm</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <app-register-form>\n\n    \n\n  </app-register-form>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\ursu_\OneDrive\Desktop\VITURSU\vit4mobile\src\pages\register-form\register-form.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], RegisterFormPage);

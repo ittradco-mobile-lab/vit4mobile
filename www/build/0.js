@@ -1,16 +1,16 @@
 webpackJsonp([0],{
 
-/***/ 768:
+/***/ 684:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterFormPageModule", function() { return RegisterFormPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_components_module__ = __webpack_require__(775);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_components_module__ = __webpack_require__(691);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__register_form__ = __webpack_require__(783);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_fire_auth__ = __webpack_require__(769);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__register_form__ = __webpack_require__(699);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_fire_auth__ = __webpack_require__(685);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -44,11 +44,11 @@ var RegisterFormPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 769:
+/***/ 685:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__public_api__ = __webpack_require__(771);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__public_api__ = __webpack_require__(687);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__public_api__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__public_api__["b"]; });
 
@@ -56,17 +56,17 @@ var RegisterFormPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 770:
+/***/ 686:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AngularFireAuth; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(382);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(339);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators__ = __webpack_require__(383);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators__ = __webpack_require__(340);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_fire__ = __webpack_require__(384);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_fire__ = __webpack_require__(341);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -122,13 +122,13 @@ var AngularFireAuth = (function () {
 
 /***/ }),
 
-/***/ 771:
+/***/ 687:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__auth__ = __webpack_require__(770);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__auth__ = __webpack_require__(686);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__auth__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_module__ = __webpack_require__(772);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth_module__ = __webpack_require__(688);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__auth_module__["a"]; });
 
 
@@ -136,14 +136,14 @@ var AngularFireAuth = (function () {
 
 /***/ }),
 
-/***/ 772:
+/***/ 688:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AngularFireAuthModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth__ = __webpack_require__(770);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_firebase_auth__ = __webpack_require__(773);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__auth__ = __webpack_require__(686);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_firebase_auth__ = __webpack_require__(689);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -168,11 +168,11 @@ var AngularFireAuthModule = (function () {
 
 /***/ }),
 
-/***/ 773:
+/***/ 689:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__firebase_auth__ = __webpack_require__(774);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__firebase_auth__ = __webpack_require__(690);
 
 
 /**
@@ -194,11 +194,11 @@ var AngularFireAuthModule = (function () {
 
 /***/ }),
 
-/***/ 774:
+/***/ 690:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__firebase_app__ = __webpack_require__(385);
+/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__firebase_app__ = __webpack_require__(342);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__firebase_app___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__firebase_app__);
 (function() {var g,aa=aa||{},k=this;function l(a){return"string"==typeof a}function ba(a){return"boolean"==typeof a}function ca(){}
 function da(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null";
@@ -523,19 +523,19 @@ __WEBPACK_IMPORTED_MODULE_0__firebase_app___default.a.INTERNAL.registerService("
 
 //# sourceMappingURL=auth.esm.js.map
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(53)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(43)))
 
 /***/ }),
 
-/***/ 775:
+/***/ 691:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComponentsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_form_register_form__ = __webpack_require__(776);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_form_login_form__ = __webpack_require__(778);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_form_register_form__ = __webpack_require__(692);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_form_login_form__ = __webpack_require__(694);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -565,16 +565,16 @@ var ComponentsModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 776:
+/***/ 692:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterFormComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__validators__ = __webpack_require__(777);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__validators__ = __webpack_require__(693);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_fire_auth__ = __webpack_require__(769);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_fire_auth__ = __webpack_require__(685);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular__ = __webpack_require__(147);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -631,9 +631,10 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
  * Components.
  */
 var RegisterFormComponent = /** @class */ (function () {
-    function RegisterFormComponent(fb, afAuth, toastCtrl) {
+    function RegisterFormComponent(fb, afAuth, toastCtrl, navCtrl) {
         this.afAuth = afAuth;
         this.toastCtrl = toastCtrl;
+        this.navCtrl = navCtrl;
         console.log('Hello RegisterFormComponent Component');
         //Build the Form with FormBuilder
         this.form = fb.group({
@@ -658,6 +659,7 @@ var RegisterFormComponent = /** @class */ (function () {
     }
     RegisterFormComponent.prototype.register = function () {
         return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
             var result, toast, e_1, toast, toast;
             return __generator(this, function (_a) {
                 switch (_a.label) {
@@ -674,6 +676,10 @@ var RegisterFormComponent = /** @class */ (function () {
                             duration: 2000,
                             position: "bottom"
                         }).present();
+                        this.afAuth.auth.currentUser.sendEmailVerification();
+                        setTimeout(function () {
+                            _this.navCtrl.pop();
+                        }, 2000);
                         return [3 /*break*/, 4];
                     case 3:
                         e_1 = _a.sent();
@@ -721,18 +727,19 @@ var RegisterFormComponent = /** @class */ (function () {
     });
     RegisterFormComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'app-register-form',template:/*ion-inline-start:"C:\Users\ursu_\OneDrive\Desktop\VITURSU\vit4mobile\src\components\register-form\register-form.html"*/'<form [formGroup]="form" (ngSubmit)="register()"> \n\n    <ion-item>\n\n        <ion-label floating>E-mail</ion-label>\n\n        <ion-input formControlName="email"></ion-input>\n\n      </ion-item>\n\n      <div padding *ngIf="email.touched && email.invalid">\n\n        <span class="global_input-error" *ngIf="email.errors.required">\n\n          E-mail is required\n\n        </span>\n\n        <span class="global_input-error" *ngIf="email.errors.email">\n\n          E-mail is not valid\n\n        </span>\n\n        <span class="global_input-error" *ngIf="email.errors.invalidEmail">\n\n          E-mail is already taken\n\n        </span>\n\n      </div>\n\n      <ion-item>\n\n        <ion-label floating>Password</ion-label>\n\n        <ion-input formControlName="password" type="password"></ion-input> \n\n      </ion-item>\n\n      <div padding *ngIf="password.touched && password.invalid">\n\n        <span class="global_input-error" *ngIf="password.errors.required">\n\n          Password is required\n\n        </span>\n\n        <span class="global_input-error" *ngIf="password.errors.invalidPass">\n\n          Password must contain at least one number and at least one uppercase letter or symbol\n\n        </span>\n\n        <span class="global_input-error" *ngIf="password.errors.minlength">\n\n          Password must be at least {{password.errors.minlength.requiredLength}} characters long\n\n        </span>\n\n      </div>\n\n      <ion-item >\n\n        <ion-label floating>Confirm Password</ion-label>\n\n        <ion-input formControlName="confPassword" type="password"></ion-input>\n\n      </ion-item>\n\n      <div padding *ngIf="confPassword.touched && confPassword.invalid">\n\n        <span class="global_input-error" *ngIf="confPassword.errors.required">\n\n          This field is required\n\n        </span>\n\n      </div>\n\n      <div padding *ngIf="form.invalid && form.errors">\n\n        <span class="global_input-error" *ngIf="confPassword.touched && form.errors.noMatch">\n\n          Passwords don\'t match\n\n        </span>\n\n      </div>\n\n      <button type="submit" ion-button margin-top block [disabled]="form.invalid || form.pending">Register</button>\n\n</form>'/*ion-inline-end:"C:\Users\ursu_\OneDrive\Desktop\VITURSU\vit4mobile\src\components\register-form\register-form.html"*/
+            selector: 'app-register-form',template:/*ion-inline-start:"C:\Users\ursu_\Desktop\VITursu\vit4mobile\src\components\register-form\register-form.html"*/'<form [formGroup]="form" (ngSubmit)="register()"> \n    <ion-item>\n        <ion-label floating>E-mail</ion-label>\n        <ion-input formControlName="email"></ion-input>\n      </ion-item>\n      <div padding *ngIf="email.touched && email.invalid">\n        <span class="global_input-error" *ngIf="email.errors.required">\n          E-mail is required\n        </span>\n        <span class="global_input-error" *ngIf="email.errors.email">\n          E-mail is not valid\n        </span>\n        <span class="global_input-error" *ngIf="email.errors.invalidEmail">\n          E-mail is already taken\n        </span>\n      </div>\n      <ion-item>\n        <ion-label floating>Password</ion-label>\n        <ion-input formControlName="password" type="password"></ion-input> \n      </ion-item>\n      <div padding *ngIf="password.touched && password.invalid">\n        <span class="global_input-error" *ngIf="password.errors.required">\n          Password is required\n        </span>\n        <span class="global_input-error" *ngIf="password.errors.invalidPass">\n          Password must contain at least one number and at least one uppercase letter or symbol\n        </span>\n        <span class="global_input-error" *ngIf="password.errors.minlength">\n          Password must be at least {{password.errors.minlength.requiredLength}} characters long\n        </span>\n      </div>\n      <ion-item >\n        <ion-label floating>Confirm Password</ion-label>\n        <ion-input formControlName="confPassword" type="password"></ion-input>\n      </ion-item>\n      <div padding *ngIf="confPassword.touched && confPassword.invalid">\n        <span class="global_input-error" *ngIf="confPassword.errors.required">\n          This field is required\n        </span>\n      </div>\n      <div padding *ngIf="form.invalid && form.errors">\n        <span class="global_input-error" *ngIf="confPassword.touched && form.errors.noMatch">\n          Passwords don\'t match\n        </span>\n      </div>\n      <button type="submit" ion-button margin-top block [disabled]="form.invalid || form.pending">Register</button>\n</form>'/*ion-inline-end:"C:\Users\ursu_\Desktop\VITursu\vit4mobile\src\components\register-form\register-form.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_3__angular_fire_auth__["a" /* AngularFireAuth */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["i" /* ToastController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__angular_fire_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_fire_auth__["a" /* AngularFireAuth */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["i" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["i" /* ToastController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4_ionic_angular__["f" /* NavController */]) === "function" && _d || Object])
     ], RegisterFormComponent);
     return RegisterFormComponent;
+    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=register-form.js.map
 
 /***/ }),
 
-/***/ 777:
+/***/ 693:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -780,14 +787,14 @@ var CustomValidators = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 778:
+/***/ 694:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginFormComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_fire_auth__ = __webpack_require__(769);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_fire_auth__ = __webpack_require__(685);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(1);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -849,7 +856,6 @@ var LoginFormComponent = /** @class */ (function () {
         this.afAuth = afAuth;
         this.toastCtrl = toastCtrl;
         this.navCtrl = navCtrl;
-        console.log('Hello LoginFormComponent Component');
         //Initializing the form with FormBuild class
         this.form = this.fb.group({
             user: [""],
@@ -869,7 +875,16 @@ var LoginFormComponent = /** @class */ (function () {
                     case 1:
                         result = _a.sent();
                         //changing the view to the 'entered' view
-                        this.navCtrl.setRoot("EnteredPage");
+                        if (this.afAuth.auth.currentUser.emailVerified) {
+                            this.navCtrl.setRoot("EnteredPage");
+                        }
+                        else {
+                            this.toastCtrl.create({
+                                message: "Account not confirmed yet!",
+                                duration: 2000,
+                                position: "bottom"
+                            }).present();
+                        }
                         return [3 /*break*/, 3];
                     case 2:
                         e_1 = _a.sent();
@@ -901,24 +916,25 @@ var LoginFormComponent = /** @class */ (function () {
     });
     LoginFormComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["m" /* Component */])({
-            selector: 'login-form',template:/*ion-inline-start:"C:\Users\ursu_\OneDrive\Desktop\VITURSU\vit4mobile\src\components\login-form\login-form.html"*/'<form [formGroup]="form" (ngSubmit)="login()">\n  <ion-item>\n    <ion-label floating>Username</ion-label>\n    <ion-input formControlName="user"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-label floating>Password</ion-label>\n    <ion-input formControlName="password" type="password"></ion-input>\n  </ion-item>\n  <button type="submit" ion-button margin-top block>Log In</button>\n</form>'/*ion-inline-end:"C:\Users\ursu_\OneDrive\Desktop\VITURSU\vit4mobile\src\components\login-form\login-form.html"*/
+            selector: 'login-form',template:/*ion-inline-start:"C:\Users\ursu_\Desktop\VITursu\vit4mobile\src\components\login-form\login-form.html"*/'<form [formGroup]="form" (ngSubmit)="login()">\n\n  <ion-item>\n\n    <ion-label floating>Username</ion-label>\n\n    <ion-input formControlName="user"></ion-input>\n\n  </ion-item>\n\n  <ion-item>\n\n    <ion-label floating>Password</ion-label>\n\n    <ion-input formControlName="password" type="password"></ion-input>\n\n  </ion-item>\n\n  <button type="submit" ion-button margin-top block>Log In</button>\n\n</form>'/*ion-inline-end:"C:\Users\ursu_\Desktop\VITursu\vit4mobile\src\components\login-form\login-form.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1__angular_fire_auth__["a" /* AngularFireAuth */], __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["i" /* ToastController */], __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["f" /* NavController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_fire_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_fire_auth__["a" /* AngularFireAuth */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["i" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["i" /* ToastController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["f" /* NavController */]) === "function" && _d || Object])
     ], LoginFormComponent);
     return LoginFormComponent;
+    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=login-form.js.map
 
 /***/ }),
 
-/***/ 783:
+/***/ 699:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterFormPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(147);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -944,13 +960,18 @@ var RegisterFormPage = /** @class */ (function () {
     RegisterFormPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad RegisterFormPage');
     };
+    RegisterFormPage.prototype.ionViewWillLeave = function () {
+        console.log("This happened");
+        this.navCtrl.push("LoginFormPage");
+    };
     RegisterFormPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-register-form',template:/*ion-inline-start:"C:\Users\ursu_\OneDrive\Desktop\VITURSU\vit4mobile\src\pages\register-form\register-form.html"*/'<!--\n\n  Generated template for the RegisterFormPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>registerForm</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <app-register-form>\n\n    \n\n  </app-register-form>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\ursu_\OneDrive\Desktop\VITURSU\vit4mobile\src\pages\register-form\register-form.html"*/,
+            selector: 'page-register-form',template:/*ion-inline-start:"C:\Users\ursu_\Desktop\VITursu\vit4mobile\src\pages\register-form\register-form.html"*/'<!--\n  Generated template for the RegisterFormPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>registerForm</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <app-register-form>\n    \n  </app-register-form>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\ursu_\Desktop\VITursu\vit4mobile\src\pages\register-form\register-form.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
     ], RegisterFormPage);
     return RegisterFormPage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=register-form.js.map

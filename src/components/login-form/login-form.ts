@@ -17,7 +17,6 @@ export class LoginFormComponent {
 
   form
   constructor(private fb: FormBuilder, private afAuth: AngularFireAuth, private toastCtrl: ToastController, private navCtrl: NavController ) {
-    console.log('Hello LoginFormComponent Component');
     //Initializing the form with FormBuild class
     this.form=this.fb.group({
       user: [""],
@@ -30,7 +29,16 @@ export class LoginFormComponent {
         console.log(this.username.value)
         const result = await this.afAuth.auth.signInWithEmailAndPassword(this.username.value, this.password.value);
         //changing the view to the 'entered' view
-        this.navCtrl.setRoot("EnteredPage");
+        if(this.afAuth.auth.currentUser.emailVerified){
+          this.navCtrl.setRoot("EnteredPage");
+        }
+        else{
+          this.toastCtrl.create({
+            message: "Account not confirmed yet!",
+            duration: 2000,
+            position: "bottom"
+          }).present();
+        }
       }
       catch(e){
         //catch any login errors

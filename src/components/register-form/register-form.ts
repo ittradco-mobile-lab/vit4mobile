@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { formArrayNameProvider } from '@angular/forms/src/directives/reactive_directives/form_group_name';
 import { AngularFireAuth } from '@angular/fire/auth';
-import { ToastController } from 'ionic-angular';
+import { ToastController, NavController } from 'ionic-angular';
 /**
  * Generated class for the RegisterFormComponent component.
  *
@@ -17,7 +17,7 @@ import { ToastController } from 'ionic-angular';
 export class RegisterFormComponent {
 
   form;
-  constructor(fb: FormBuilder,private afAuth: AngularFireAuth, private toastCtrl: ToastController) {
+  constructor(fb: FormBuilder,private afAuth: AngularFireAuth, private toastCtrl: ToastController, private navCtrl: NavController) {
     console.log('Hello RegisterFormComponent Component');
     //Build the Form with FormBuilder
     this.form=fb.group({
@@ -49,6 +49,10 @@ export class RegisterFormComponent {
           duration: 2000,
           position: "bottom"
         }).present();
+        this.afAuth.auth.currentUser.sendEmailVerification();
+        setTimeout(()=>{
+          this.navCtrl.pop();
+        }, 2000);
       }
       catch(e){
         console.error(e);
@@ -67,6 +71,7 @@ export class RegisterFormComponent {
       }).present();
     }
   }
+  
   //Get all Form Controls
   get email(){
     return this.form.get("email");

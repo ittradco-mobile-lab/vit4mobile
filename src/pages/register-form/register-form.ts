@@ -21,5 +21,8 @@ export class RegisterFormPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad RegisterFormPage');
   }
-
+  ionViewWillLeave() {
+    console.log("This happened");
+    this.navCtrl.push("LoginFormPage");
+  }
 }
